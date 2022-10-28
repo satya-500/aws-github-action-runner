@@ -1,4 +1,4 @@
-name: AWS GitHub Action runner
+name: AWS GitHub Action Runner
 description: AWS EC2 instance as a GitHub Actions self-hosted runner.
 author: Satyabrata Swain
 branding:
