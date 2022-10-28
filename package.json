@@ -1,15 +1,15 @@
 {
-  "name": "aws-github-runner",
-  "description": "GitHub Action for automatic creation and registration AWS EC2 instance as a GitHub Actions self-hosted runner.",
+  "name": "aws-github-action-runner",
+  "description": "AWS GitHub Action Runner",
   "author": "Satyabrata Swain",
   "license": "PRIVATE",
   "repository": {
     "type": "git",
-    "url": "git@github.com:satya-500/aws-github-runner.git"
+    "url": "git@github.com:satya-500/aws-github-action-runner.git"
   },
-  "homepage": "https://github.com/satya-500/aws-github-runner#readme",
+  "homepage": "https://github.com/satya-500/aws-github-action-runner#readme",
   "bugs": {
-    "url": "https://github.com/satya-500/aws-github-runner/issues"
+    "url": "https://github.com/satya-500/aws-github-action-runner/issues"
   },
   "scripts": {
     "index": "node -r dotenv/config ./src/index.js",
