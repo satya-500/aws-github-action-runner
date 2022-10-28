@@ -25,7 +25,7 @@ jobs:
       
       - name: start ec2 runner
         id: start-ec2-runner
-        uses: satya-500/aws-github-action-runner@v1.0
+        uses: satya-500/aws-github-action-runner@v1.1
         with:
           mode: start
           github-token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
@@ -63,7 +63,7 @@ jobs:
           aws-region: ap-south-1
       
       - name: stop ec2 runner
-        uses: satya-500/aws-github-action-runner@v1.0
+        uses: satya-500/aws-github-action-runner@v1.1
         with:
           mode: stop
           github-token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
